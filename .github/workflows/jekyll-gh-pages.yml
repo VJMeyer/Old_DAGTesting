@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./OLD_0.1_DAGDrawing.html
+          source: ./TESTinteractive_dag.html
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
